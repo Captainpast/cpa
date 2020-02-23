@@ -74,6 +74,7 @@ p,h1,h2,h3,h4,h5,a,li,button,span,th,td,th,div {
   position: absolute;
   left: 0px;
   transition: left .5s;
+  z-index: 9;
 }
 .sidebar.close {
   left: -300px;
