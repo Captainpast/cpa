@@ -1,0 +1,52 @@
+<!doctype html>
+<!--HTML by Captainpast-->
+<html lang="de" style="height:100%;">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+  </head>
+  <body>
+    <h1 class="title">CPA</h1>
+    <p class="subtitle">Captain Past Arcive</p>
+    <div class="cardView">
+      <div title="JavaScript" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'js'}, '*')">
+        <img src="./../data/icons/js.png" alt="JS">
+      </div>
+      <div title="HTML" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'html'}, '*')">
+        <img src="./../data/icons/html.png" alt="HTML">
+      </div>
+      <div title="CSS" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'css'}, '*')">
+        <img src="./../data/icons/css.png" alt="CSS">
+      </div>
+      <div title="Kotlin" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'kotlin'}, '*')">
+        <img src="./../data/icons/kotlin.svg" alt="Kotlin">
+      </div>
+      <div title="Python" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'python'}, '*')">
+        <img src="./../data/icons/python.png" alt="Python">
+      </div>
+      <div title="Java" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'java'}, '*')">
+        <img src="./../data/icons/java.webp" alt="Java">
+      </div>
+      <div title="XML" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'xml'}, '*')">
+        <img src="./../data/icons/xml.png" alt="XML">
+      </div>
+      <div title="PHP" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'php'}, '*')">
+        <img src="./../data/icons/php.png" alt="PHP">
+      </div>
+      <div title="MC function" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'minecraft'}, '*')">
+        <img src="./../data/icons/minecraft.png" alt="Minecraft">
+      </div>
+      <div title="C#" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'csh'}, '*')">
+        <img src="./../data/icons/csh.png" alt="C#">
+      </div>
+      <div title="C++" class="card" onclick="window.parent.postMessage({func:'loadWindow', params:'c++'}, '*')">
+        <img src="./../data/icons/c++.png" alt="C++">
+      </div>
+    </div>
+    <script>
+      window.parent.postMessage({func:"sidebarClose"}, '*')
+      window.parent.postMessage({func:"setTitle", params:"Home"}, '*')
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<!doctype html>
+<!--HTML by Captainpast-->
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sidebar.css">
+    <script src="./sidebar.js"></script>
+  </head>
+  <body>
+    <p class="back" onclick="window.parent.postMessage({func:'loadWindow', params:'home'}, '*')">< Home</p>
+    <div class="tabs">
+      <h1>Algemin</h1>
+      <p onclick="loadWindow('js')">Was ist JavaScript?</p>
+      <p onclick="loadWindow('js/variablen')">Variablen</p>
+    </div>
+  </body>
+</html>

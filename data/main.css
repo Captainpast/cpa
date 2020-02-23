@@ -1,0 +1,101 @@
+/*CSS by Captinpast*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+p,h1,h2,h3,h4,h5,a,li,button,span,th,td,th,div {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.navbar {
+  width: calc(100% - 10px);
+  height: 40px;
+  padding: 5px;
+  background: #ffffff;
+  box-shadow: 1px 1px 2px #000000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.navbar .title {
+  margin: 0;
+}
+
+.navbar .sideButton {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.navbar .sideButton div {
+  height: 5px;
+  width: 40px;
+  background: #000000;
+  transform: rotateZ(0deg);
+  position: relative;
+  transition: width .5s, top .5s, transform .5s;
+}
+.navbar .sideButton.close #a {
+  width: 40px;
+  top: 0;
+  transform: rotateZ(0deg);
+}
+.navbar .sideButton.close #c {
+  width: 40px;
+  top: 0;
+  transform: rotateZ(0deg);
+}
+.navbar .sideButton #a {
+  width: 25px;
+  top: 5px;
+  transform: rotateZ(-40deg);
+}
+.navbar .sideButton #c {
+  width: 25px;
+  bottom: 4px;
+  transform: rotateZ(40deg);
+}
+
+.sidebar {
+  border: none;
+  height: calc(100% - 50px);
+  width: 300px;
+  display: block;
+  position: absolute;
+  left: 0px;
+  transition: left .5s;
+}
+.sidebar.close {
+  left: -300px;
+}
+
+@media only screen and (max-width: 500px) {
+  .body {
+    padding-left: 0 !important;
+    width: 100% !important;
+  }
+}
+
+.body {
+  border: none;
+  height: calc(100% - 50px);
+  width: calc(100% - 300px);
+  display: block;
+  padding-left: 300px;
+  opacity: 1;
+  transition: padding-left .5s, width .5s, opacity .5s linear;
+}
+.body.close {
+  padding-left: 0;
+  width: 100%;
+}

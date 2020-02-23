@@ -1,0 +1,29 @@
+<!doctype html>
+<!--HTML by Captainpast-->
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sidebar.css">
+    <script src="./sidebar.js"></script>
+  </head>
+  <body>
+    <p class="back" onclick="window.parent.postMessage({func:'loadWindow', params:'home'}, '*')">< Home</p>
+    <div class="tabs">
+      <h1>Algemin</h1>
+      <p onclick="loadWindow('kotlin')">Was ist Kotlin?</p>
+      <p onclick="loadWindow('kotlin/variablen')">Variablen</p>
+
+      <h1>Views</h1>
+      <p onclick="loadWindow('kotlin/findviewbyid')">findViewById</p>
+      <p onclick="loadWindow('kotlin/textview')">TextView</p>
+      <p onclick="loadWindow('kotlin/button')">Button</p>
+      <p onclick="loadWindow('kotlin/imageview')">ImageView</p>
+      <p onclick="loadWindow('kotlin/edittext')">EditText</p>
+      <p onclick="loadWindow('kotlin/switch')">Switch</p>
+      <p onclick="loadWindow('kotlin/seekbar')">SeekBar</p>
+      <p onclick="loadWindow('kotlin/spinner')">Spinner</p>
+
+    </div>
+  </body>
+</html>

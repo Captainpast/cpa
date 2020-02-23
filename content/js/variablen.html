@@ -1,0 +1,53 @@
+<!doctype html>
+<!--HTML by Captainpast-->
+<html lang="de" style="height:100%;">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../content.css">
+    <script src="./../content.js"></script>
+    <title>JavaScript/Variablen</title>
+  </head>
+  <body>
+    <h1 class="title">Variablen</h1>
+    <p class="subtitle">var & let</p>
+
+    <h1>Typen</h1>
+    <p>Es gibt mehrere Typen von Variablen</p>
+    <p>String:</p>
+    <code><span class="func">var</span> test <span class="oper">=</span> <span class="string">"string"</span></code>
+    <p>Number:</p>
+    <code><span class="func">var</span> test <span class="oper">=</span> <span class="int">3</span></code>
+    <p>Boolean:</p>
+    <code><span class="func">var</span> test <span class="oper">=</span> <span class="boolean">true</span></code>
+    <p>Es gibt auch noch welche die mehrere diese Typen zusammen fassen</p>
+    <p>Array:</p>
+    <code><span class="func">var</span> test <span class="oper">=</span> [<span class="string">"string"</span>, <span class="int">3</span>]</code>
+    <p>JSON:</p>
+    <code>
+      <span class="func">var</span> test <span class="oper">=</span> {<br>
+      &nbsp;&nbsp;<span class="string">"string1"</span><span class="oper">:</span><span class="string">"string"</span>,<br>
+      &nbsp;&nbsp;<span class="string">"boolean1"</span><span class="oper">:</span><span class="boolean">false</span>,<br>
+      &nbsp;&nbsp;<span class="string">"json1"</span><span class="oper">:</span> {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"string2"</span><span class="oper">:</span><span class="string">"string"</span>,<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"boolean2"</span><span class="oper">:</span><span class="boolean">false</span>,<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"array1"</span><span class="oper">:</span>[<span class="string">"string"</span>, <span class="int">3</span>]<br>
+      &nbsp;&nbsp;}<br>
+    }
+    </code>
+    <p>Zugunterletzt kann man auch Funktionen auf variablen setzen</p>
+    <code>
+      <span class="func">var</span> test <span class="oper">=</span> <span class="func">function</span>(arg) {<br>
+        &nbsp;&nbsp;<span class="static">console</span>.<span class="runfunc">log</span>(arg) <br>
+      }
+    </code>
+
+    <h1>Arten</h1>
+    <p>Auster dem gibt es auch eine unterschied zwitscher var und let</p>
+    <code>
+      <span class="func">let</span> test1 <span class="oper">=</span> <span class="string">"string wird hir erstellt"</span><br>
+      <span class="func">var</span> test2 <span class="oper">=</span> <span class="string">"string wird immer am anfang des codes erstellt"</span>
+    </code>
+
+  </body>
+</html>
