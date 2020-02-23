@@ -49,3 +49,18 @@ p,h1,h2,h3,h4,h5,a,li,button,span,th,td,th,div {
   width: 160px;
   height: 160px;
 }
+
+@media only screen and (max-width: 600px) {
+  .cardView .card {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+
+  .cardView .card img {
+    width: 100px;
+    height: 100px;
+  }
+}
