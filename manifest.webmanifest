@@ -4,12 +4,12 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "cpa/data/icons/cpa.png",
+      "src": "data/icons/cpa.png",
       "sizes": "128x128",
       "type": "image/png"
     }
   ],
   "name": "Captainpast archive",
   "short_name": "CPA",
-  "start_url": "cpa/index.html"
+  "start_url": "index.html"
 }
