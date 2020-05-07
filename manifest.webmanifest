@@ -1,7 +1,7 @@
 {
   "background_color": "white",
   "description": "A programinlanuguige Library",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
     {
       "src": "data/icons/cpa.png",
