@@ -1,15 +1,15 @@
 {
-  "background_color": "purple",
-  "description": "Shows random fox pictures. Hey, at least it isn't cats.",
+  "background_color": "white",
+  "description": "A programinlanuguige Library",
   "display": "fullscreen",
   "icons": [
     {
-      "src": "icon/fox-icon.png",
-      "sizes": "192x192",
+      "src": "cpa/data/icons/cpa.png",
+      "sizes": "128x128",
       "type": "image/png"
     }
   ],
-  "name": "Awesome fox pictures",
-  "short_name": "Foxes",
-  "start_url": "/pwa-examples/a2hs/index.html"
+  "name": "Captainpast archive",
+  "short_name": "CPA",
+  "start_url": "cpa/index.html"
 }
