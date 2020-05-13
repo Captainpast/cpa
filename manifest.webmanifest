@@ -11,5 +11,13 @@
   ],
   "name": "Captainpast archive",
   "short_name": "CPA",
-  "start_url": "index.html"
+  "start_url": "index.html",
+  "shortcuts": [
+    {
+      "name": "New Chonks",
+      "short_name": "New",
+      "url": "index.html#js",
+      "icons": [{"src": "data/icons/js.png", "sizes": "1052x1052"}]
+    }
+  ]
 }
