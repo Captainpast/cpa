@@ -1,6 +1,6 @@
 //JavaScript by Captinpast
 
-console.log(this);
+//console.log(this);
 
 var elements = {}
 var sidebar = {}
@@ -91,7 +91,8 @@ window.setTitle = function(to) {
 }
 
 //For PWA
-addEventListener('install', (e) => {
-    console.log('[Service Worker] Install');
-    console.log(e);
-});
+if ("serviceWorker" in navigator) {
+  addEventListener("load", function(event) {
+    navigator.serviceWorker.register("/sw.js")
+  })
+}
