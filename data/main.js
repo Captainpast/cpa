@@ -93,6 +93,6 @@ window.setTitle = function(to) {
 //For PWA
 if ("serviceWorker" in navigator) {
   addEventListener("load", function(event) {
-    navigator.serviceWorker.register("/sw.js")
+    navigator.serviceWorker.register("./sw.js")
   })
 }
