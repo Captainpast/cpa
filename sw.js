@@ -1,7 +1,7 @@
 //JavaScript by Captinpast
 var cacheName = "v0.0.1"
 var resoures = [
-  "/",
+  "/cpa/",
   "index.html",
   "data/main.js",
   "data/main.css",
