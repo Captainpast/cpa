@@ -89,3 +89,9 @@ window.setTitle = function(to) {
   document.title = "CPA - " + to
   elements.navbar.getElementsByClassName("title")[0].innerText = to
 }
+
+//For PWA
+addEventListener('install', (e) => {
+    console.log('[Service Worker] Install');
+    console.log(e);
+});
