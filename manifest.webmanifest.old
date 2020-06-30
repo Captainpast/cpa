@@ -1,0 +1,21 @@
+{
+  "background_color": "#ffffff",
+  "description": "A programinlanuguige Library",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "data/icons/cpa/128x.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "data/icons/cpa/144x.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "name": "Captainpast archive",
+  "short_name": "CPA",
+  "start_url": "index.html",
+  "theme_color": "#ffffff"
+}
