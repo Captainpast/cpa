@@ -1,27 +1,21 @@
 {
-  "short_name": "PWA Store",
-  "name": "PWA Store",
-  "scope": "https://progressiveapp.store/",
+  "background_color": "#ffffff",
+  "description": "A programinlanuguige Library",
+  "display": "standalone",
   "icons": [
     {
-      "src": "assets/icon/logo-144.png",
+      "src": "data/icons/cpa/128x.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "data/icons/cpa/144x.png",
       "sizes": "144x144",
       "type": "image/png"
-    },
-    {
-      "src": "assets/icon/android-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "assets/icon/android-512.png",
-      "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "maskable"
     }
   ],
-  "start_url": "/",
-  "display": "standalone",
-  "theme_color": "#f8f8f8",
-  "background_color": "#f8f8f8"
+  "name": "Captainpast archive",
+  "short_name": "CPA",
+  "start_url": "index.html",
+  "theme_color": "#ffffff"
 }
